@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Banterbird</title>
-    <script src="/static/js/app.js" defer></script>
+    <title >Banterbird</title>
+    <script src="/static/app.js" defer></script>
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
     <h1>Banterbird</h1>
     <div>
-        Logged in as: <strong id="username">admin</strong>
+        <t class = message>Logged in as:</t> <strong class="username">admin</strong>
     </div>
     <div>
-        <h3>New Post</h3>
+        <h3 class = message>New Post</h3>
         <textarea id="postInput" placeholder="What's on your mind?"></textarea><br>
-        <button onclick="submitPost()">Tweet</button>
+        <button onclick="submitPost()" >Tweet</button>
     </div>
     <hr>
     <h3>Feed</h3>
